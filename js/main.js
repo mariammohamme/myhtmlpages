@@ -1,13 +1,13 @@
-var nam= prompt("please enter the identyty");
-if (nam === "mariam")
+var user= prompt("please enter the identyty");
+if ( user === "mariam")
 {
-    alert("hi mariam." + nam )
+    alert("hi mariam." + user )
 }
 else
 {
     alert("wronge name")
 }
-while(nam !=='father')
+while(user !=='father')
 {
     nam = prompt('the name of father shoul put');
 }
