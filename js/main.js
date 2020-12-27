@@ -12,15 +12,3 @@ else if (user == 1) {
     document.write('<img src="chooclet.jpg">');
 }
 
-/* for ( user = 0; user < 3; i++) {
-   
-  
-    if (user == 0 )
- { document.write('<img src="chooclet.jpg">');} 
-   else if (user == 1) {
-   document.write('<img src="chooclet.jpg">');
-   document.write('<img src="chooclet.jpg">');
-alert("wronge name");
-   }
-} 
-*/
