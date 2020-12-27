@@ -1,14 +1,17 @@
-prompt('hello, what is Ur name plz');
-var user = prompt("how many chooclet you have?");
-if (user == 0) {
-    document.write('<img src="chooclet.jpg">');
-}
-else if (user == 1) {
-    document.write('<img src="chooclet.jpg">');
-    document.write('<img src="chooclet.jpg">');
-}else if (user == 2) {
-    document.write('<img src="chooclet.jpg">');
-    document.write('<img src="chooclet.jpg">');
-    document.write('<img src="chooclet.jpg">');
+
+var user = prompt("Enter you name");
+if (user === "mariam")
+{ alert(" welcome  " + user)}
+else{ alert(" welcome anyway")}
+
+
+
+
+displyinfo(user);
+function displyinfo (inputdata){
+    while (inputdata !== 'mariam'){
+        inputdata = prompt('your name must be mariam');
+        }
+        alert("welcome to our page")
 }
 
